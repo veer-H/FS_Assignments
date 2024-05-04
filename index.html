@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Selection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Vehicle Selection</h1>
+    <div class="results">
+        <form id="vehicleForm">
+            <p>Choose Vehicle Type:</p>
+            <input type="radio" name="vehicleType" id="car" value="car">
+            <label for="car">Car</label>
+            <input type="radio" name="vehicleType" id="truck" value="truck">
+            <label for="truck">Truck</label>
+            <br>
+            <button type="button" onclick="processData(this.form)">Submit</button>
+        </form>
+    </div>
+    <div class="resultText">
+        <p id="result"></p>
+    </div>
+    <script src="Q24.js"></script>
+</body>
+
+</html>
